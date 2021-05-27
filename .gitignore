@@ -18,5 +18,6 @@ yarn.lock
 package-lock.json
 
 generated/
+lib/
 
 

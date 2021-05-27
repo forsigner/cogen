@@ -16,3 +16,7 @@ export interface CogenConfig {
 
   [key: string]: any
 }
+
+export interface PluginOptions {
+  [key: string]: any
+}
