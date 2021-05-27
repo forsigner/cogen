@@ -1,0 +1,44 @@
+{
+  "name": "@cogen/cli",
+  "description": "A code generate tool",
+  "version": "0.0.0",
+  "author": "forsigner @forsigner",
+  "bin": {
+    "cogen": "./bin/run"
+  },
+  "bugs": "https://github.com/forsigner/cogen/issues",
+  "dependencies": {
+    "@oclif/command": "^1.8.0",
+    "@oclif/config": "^1.17.0",
+    "@oclif/plugin-help": "^3.2.2",
+    "require-from-string": "^2.0.2"
+  },
+  "devDependencies": {
+    "@oclif/dev-cli": "^1.26.0",
+    "@types/node": "^15.6.1",
+    "ts-node": "^10.0.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/lib"
+  ],
+  "homepage": "https://github.com/forsigner/cogen",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "oclif": {
+    "bin": "cogen"
+  },
+  "repository": "forsigner/cogen",
+  "scripts": {
+    "build:watch": "rm -rf lib && tsc -w",
+    "build": "rm -rf lib && tsc -b && oclif-dev readme",
+    "test": "echo NO TESTS"
+  },
+  "types": "lib/index.d.ts"
+}
