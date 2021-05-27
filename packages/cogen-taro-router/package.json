@@ -1,0 +1,39 @@
+{
+  "name": "cogen-taro-router",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "tsdx lint"
+    }
+  },
+  "keywords": [
+    "taro",
+    "router"
+  ],
+  "author": "Thomas Trainset",
+  "module": "dist/cogen-taro-router.esm.js",
+  "dependencies": {
+    "@cogen/cli": "^0.0.0",
+    "lodash.last": "^3.0.0",
+    "ts-morph": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/lodash.last": "^3.0.6"
+  }
+}
