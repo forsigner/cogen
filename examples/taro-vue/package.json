@@ -1,6 +1,6 @@
 {
   "name": "example-taro-vue",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "description": "ts-vue-example",
   "templateInfo": {
@@ -45,6 +45,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.8.0",
+    "@cogen/cli": "^0.1.0",
     "@tarojs/mini-runner": "3.1.0-beta.4",
     "@tarojs/webpack-runner": "3.1.0-beta.4",
     "@types/webpack-env": "^1.13.6",
@@ -52,11 +53,10 @@
     "@typescript-eslint/parser": "^2.x",
     "@vue/compiler-sfc": "^3.0.0",
     "babel-preset-taro": "3.1.0-beta.4",
+    "cogen-taro-router": "^0.1.0",
     "eslint": "^6.8.0",
     "eslint-config-taro": "3.1.0-beta.4",
     "eslint-plugin-vue": "^7.0.0",
-    "@cogen/cli": "^0.0.0",
-    "cogen-taro-router": "^0.0.0",
     "shelljs": "^0.8.4",
     "stylelint": "9.3.0",
     "typescript": "^3.7.0",

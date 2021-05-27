@@ -1,7 +1,7 @@
 {
   "name": "@cogen/cli",
   "description": "A code generate tool",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "forsigner @forsigner",
   "bin": {
     "cogen": "./bin/run"

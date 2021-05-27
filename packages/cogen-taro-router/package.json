@@ -1,6 +1,6 @@
 {
   "name": "cogen-taro-router",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -29,7 +29,7 @@
   "author": "Thomas Trainset",
   "module": "dist/cogen-taro-router.esm.js",
   "dependencies": {
-    "@cogen/cli": "^0.0.0",
+    "@cogen/cli": "^0.1.0",
     "lodash.last": "^3.0.0",
     "ts-morph": "^11.0.0"
   },

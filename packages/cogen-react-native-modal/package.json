@@ -1,6 +1,6 @@
 {
   "name": "cogen-react-native-modal",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -21,6 +21,6 @@
   "author": "forsigner",
   "module": "dist/cogen-react-native-modal.esm.js",
   "dependencies": {
-    "@cogen/cli": "^0.0.0"
+    "@cogen/cli": "^0.1.0"
   }
 }

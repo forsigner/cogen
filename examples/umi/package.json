@@ -1,6 +1,6 @@
 {
   "name": "example-umi",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "g": "cogen",
@@ -12,12 +12,12 @@
     "test:coverage": "echo 'no test'"
   },
   "dependencies": {
+    "@cogen/cli": "^0.1.0",
     "@umijs/preset-react": "1.x",
     "@umijs/test": "^3.3.2",
-    "@cogen/cli": "^0.0.0",
-    "cogen-modal": "^0.0.0",
-    "cogen-stook-graphql": "^0.0.0",
-    "cogen-umi-router": "^0.0.0",
+    "cogen-modal": "^0.1.0",
+    "cogen-stook-graphql": "^0.1.0",
+    "cogen-umi-router": "^0.1.0",
     "stook": "1.0.0",
     "stook-devtools": "^1.0.0",
     "stook-graphql": "1.0.0",

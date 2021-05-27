@@ -1,6 +1,6 @@
 {
   "name": "cogen-stook-graphql",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -26,12 +26,12 @@
     "graphql": "^15.5.0"
   },
   "dependencies": {
+    "@cogen/cli": "^0.1.0",
     "@graphql-codegen/cli": "^1.21.5",
     "@graphql-codegen/schema-ast": "^1.18.3",
     "@graphql-codegen/typescript": "^1.22.1",
     "case": "^1.6.3",
     "fs-jetpack": "^4.1.0",
-    "@cogen/cli": "^0.0.0",
     "lodash": "^4.17.21",
     "lodash.get": "^4.4.2",
     "ts-morph": "^11.0.0"

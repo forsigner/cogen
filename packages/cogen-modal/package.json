@@ -1,6 +1,6 @@
 {
   "name": "cogen-modal",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -21,8 +21,8 @@
   "author": "forsigner",
   "module": "dist/cogen-modal.esm.js",
   "devDependencies": {
-    "@types/lodash": "^4.14.170",
-    "@cogen/cli": "^0.0.0"
+    "@cogen/cli": "^0.1.0",
+    "@types/lodash": "^4.14.170"
   },
   "dependencies": {
     "lodash": "^4.17.21",
