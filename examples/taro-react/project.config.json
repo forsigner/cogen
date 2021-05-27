@@ -1,0 +1,69 @@
+{
+  "miniprogramRoot": "dist/",
+  "projectname": "example",
+  "description": "example",
+  "appid": "touristappid",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "enhance": false,
+    "postcss": false,
+    "preloadBackgroundData": false,
+    "minified": false,
+    "newFeature": false,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": false,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "bundle": false,
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true
+  },
+  "compileType": "miniprogram",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "id": 1,
+          "name": "Index",
+          "pathName": "pages/index/index"
+        },
+        {
+          "id": 2,
+          "name": "Test",
+          "pathName": "package-test/pages/test/index"
+        },
+        {
+          "id": 3,
+          "name": "Test2",
+          "pathName": "pages/test2/index"
+        },
+        {
+          "id": 4,
+          "name": "Test3",
+          "pathName": "pages/test3/index"
+        }
+      ]
+    }
+  }
+}

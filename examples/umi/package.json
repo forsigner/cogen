@@ -1,0 +1,27 @@
+{
+  "name": "example-umi",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "g": "cogen",
+    "start": "cogen && umi dev",
+    "build": "echo",
+    "postinstall": "umi generate tmp",
+    "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
+    "test": "echo 'no test'",
+    "test:coverage": "echo 'no test'"
+  },
+  "dependencies": {
+    "@umijs/preset-react": "1.x",
+    "@umijs/test": "^3.3.2",
+    "@cogen/cli": "^0.0.0",
+    "cogen-modal": "^0.0.0",
+    "cogen-stook-graphql": "^0.0.0",
+    "cogen-umi-router": "^0.0.0",
+    "stook": "1.0.0",
+    "stook-devtools": "^1.0.0",
+    "stook-graphql": "1.0.0",
+    "umi": "^3.3.4",
+    "yup": "^0.32.6"
+  }
+}
