@@ -1,0 +1,28 @@
+{
+  "name": "cogen-taro-modal",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build"
+  },
+  "author": "Thomas Trainset",
+  "module": "dist/cogen-taro-modal.esm.js",
+  "dependencies": {
+    "@cogen/cli": "^0.0.0",
+    "lodash.last": "^3.0.0",
+    "ts-morph": "^11.0.0"
+  }
+}
